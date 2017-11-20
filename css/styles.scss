@@ -1,0 +1,87 @@
+---
+---
+
+@import "bootstrap/bootstrap";
+
+// Imports
+// @import "variables";
+// @import "bootstrap";
+// @import "bootswatch";
+// @import "custom";
+
+/* Show it is fixed to the top */
+body {
+  min-height: 75rem;
+  padding-top: 4.5rem;
+}
+
+.navbar {
+  margin-bottom: 0;
+}
+
+.jumbotron {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  margin-bottom: 0;
+  background-color: #fff;
+}
+
+.jumbotron p:last-child {
+  margin-bottom: 0;
+}
+
+.jumbotron-heading {
+  font-weight: 300;
+}
+
+.jumbotron .container {
+  max-width: 40rem;
+}
+
+.items {
+  min-height: 50rem; /* Can be removed; just added for demo purposes */
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  background-color: #f7f7f7;
+}
+
+.card {
+  padding: .75rem;
+  margin-bottom: 2rem;
+  border: 0;
+}
+
+.card > img {
+  margin-bottom: .75rem;
+}
+
+.card-text {
+  font-size: 85%;
+}
+
+// @media (min-width: 1200px) {
+//     .row > .col-lg-3:nth-child(4n+1) {
+//         clear: left;
+//     }
+// }
+//
+// @media (min-width: 992px) and (max-width:1199px) {
+//     .row > .col-md-4:nth-child(3n+1) {
+//         clear: left;
+//     }
+// }
+//
+// @media (min-width: 768px) and (max-width:991px) {
+//     .row > .col-sm-6:nth-child(2n+1) {
+//         clear: left;
+//     }
+// }
+
+footer {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+footer p {
+  margin-bottom: .25rem;
+}
