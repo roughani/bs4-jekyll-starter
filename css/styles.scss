@@ -1,13 +1,10 @@
 ---
 ---
 
-@import "bootstrap/bootstrap";
-
 // Imports
-// @import "variables";
-// @import "bootstrap";
-// @import "bootswatch";
-// @import "custom";
+@import "variables"; // Bootswatch Pulse theme variables
+@import "bootstrap/bootstrap"; // Bootstrap v4.0.0-beta.2
+@import "bootswatch"; // Bootswatch Pulse theme custom styles
 
 /* Show it is fixed to the top */
 body {
@@ -55,27 +52,9 @@ body {
   margin-bottom: .75rem;
 }
 
-.card-text {
-  font-size: 85%;
+.not-found {
+  text-align: center;
 }
-
-// @media (min-width: 1200px) {
-//     .row > .col-lg-3:nth-child(4n+1) {
-//         clear: left;
-//     }
-// }
-//
-// @media (min-width: 992px) and (max-width:1199px) {
-//     .row > .col-md-4:nth-child(3n+1) {
-//         clear: left;
-//     }
-// }
-//
-// @media (min-width: 768px) and (max-width:991px) {
-//     .row > .col-sm-6:nth-child(2n+1) {
-//         clear: left;
-//     }
-// }
 
 footer {
   padding-top: 3rem;
